@@ -1,0 +1,14 @@
+mas aspirador {
+
+    infrastructure: Centralised
+
+    agents:
+        aspirador1 agentProgram: src/agt/aspirador.asl
+            beliefs: pos(0)
+            focus: env
+
+    environment:
+        classpath: env
+        artifacts:
+            rooms: Rooms(2) at env
+}

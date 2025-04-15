@@ -1,0 +1,21 @@
+
+
+mas my_first_app {
+
+    agent robot: aspirador.asl {
+      focus: w.c1 
+    }
+
+    workspace w {
+      artifact c1: Rooms 
+    }
+
+    organisation o: org.xml {
+      group g1 : group1 {
+        players: robot role1
+      }
+    }
+
+    
+
+}
